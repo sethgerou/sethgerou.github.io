@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   h1 {font-family: sans-serif;}
   .page-title h1 {font-family: sans-serif;}
 }
