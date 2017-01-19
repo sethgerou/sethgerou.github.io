@@ -3,9 +3,19 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width: 500px) {
+@media (orientation: landscape) {
+  #id1 {width: 30%;}
+  #id2 {width: 30%;}
+  #id3 {width: 30%;}
+}
+
+@media (orientation: portrait) {
   h1 {font-family: sans-serif;}
   .page-title h1 {font-family: sans-serif;}
+  #id1 {width: 60%; display: block; margin-left: auto; margin-right: auto; padding: 20px;}
+  #id2 {width: 60%; display: block; margin-left: auto; margin-right: auto; padding: 20px;}
+  #id3 {width: 60%; display: block; margin-left: auto; margin-right: auto; padding: 20px;}
+  p {width: 70%; display: block; margin-left: auto; margin-right: auto;}
 }
 
 nav {
@@ -103,7 +113,3 @@ a:link {color: red; text-decoration: none;}
 a:visited {color: gray; text-decoration: none;}
 a:active {color: red; text-decoration: none;}
 a:hover {color: blue; text-decoration: underline;}
-
-#id1 {width: 30%; transform: rotate(0.01turn); margin: 20px;}
-#id2 {width: 30%; transform: rotate(0.01turn); margin: 20px;}
-#id3 {width: 30%; transform: rotate(0.01turn); margin: 20px;}
