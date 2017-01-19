@@ -2,6 +2,12 @@
   font-family: Helvetica;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 400px) {
+  h1 {font-family: sans-serif;}
+  .page-title h1 {font-family: sans-serif;}
+}
+
 nav {
   background-color: gray;
   font-size: 1em;
