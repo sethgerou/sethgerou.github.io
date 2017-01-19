@@ -1,4 +1,11 @@
-*{
-  background-color: blue
+nav {
+  background-color: gray;
+  font-family: Helvetica;
+  font-size: 2em;
+  text-align: center;
  }
-  
+
+nav a:link {color: white; text-decoration: none; }
+nav a:active {color: white; text-decoration: none; }
+nav a:visited {color: white; text-decoration: none; }
+nav a:hover {color: white; text-decoration: underline; }
