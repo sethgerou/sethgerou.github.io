@@ -29,7 +29,7 @@
   nav {background-color: gray; font-size: .8em; text-align: center; text-transform: uppercase; margin: 3px; padding: 3px; width: 90%; display: inline-block;}
 }
 
-@media screen and (max-width: 500) {
+@media screen and (max-width: 500px) {
   h1 {font-size: .6em}
 }
 
