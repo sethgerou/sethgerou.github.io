@@ -1,8 +1,7 @@
-* {
+body, html {
   font-family: Helvetica;
   font-weight: bold;
 }
-
 /* media query to improve responsiveness of page */
 @media screen and (orientation: landscape) {
   #id1 {width: 30%;}
@@ -41,6 +40,10 @@ nav a:visited {color: white; text-decoration: none; }
 nav a:hover {color: white; text-decoration: underline; }
 nav a {padding: 10px;}
 
+.container {
+  width: 90%;
+  margin: auto;
+}
 /* element styled using a class */
 .page-title {
   text-align: center;
